@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mock Interview</title>
+</head>
+<body>
+    <h1>Question</h1>
+    <p>{{ question }}</p>
+    <form method="post">
+        <textarea name="answer" rows="10" cols="50" required></textarea><br>
+        <input type="submit" value="Submit Answer">
+    </form>
+    {% if eval %}
+    <h2>Evaluation</h2>
+    <p>Score: {{ eval.score }}/10</p>
+    <p>Strengths: {{ eval.strengths }}</p>
+    <p>Weaknesses: {{ eval.weaknesses }}</p>
+    <p>Improved: {{ eval.improved }}</p>
+    {% endif %}
+</body>
+</html>
