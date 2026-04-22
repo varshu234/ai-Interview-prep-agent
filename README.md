@@ -11,3 +11,6 @@ AI-powered interview coach that generates role- and company-specific questions, 
 ## ▶️ How to Run
 pip install -r requirements.txt
 streamlit run app.py
+## 📸 Project Screenshot
+
+![Project UI](images/screenshot.png)
