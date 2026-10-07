@@ -6,9 +6,8 @@ from langchain_groq import ChatGroq
 # ---------------- SETUP ---------------- #
 
 llm = ChatGroq(
-    model="llama-3.1-8b-instant",
-    temperature=0.7,
-    max_tokens=200
+    model="openai/gpt-oss-20b",
+    temperature=0
 )
 
 st.set_page_config(page_title="Interview Prep AI", page_icon="🎯")
